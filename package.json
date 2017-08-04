@@ -1,0 +1,40 @@
+{
+	"name": "module-to-cdnjs",
+	"version": "0.0.0",
+	"description": "Get cdnjs.com info from npm module name",
+	"license": "MIT",
+	"repository": "mastilver/module-to-cdnjs",
+	"author": {
+		"name": "Thomas Sileghem",
+		"email": "th.sileghem@gmail.com",
+		"url": "mastilver.com"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js",
+		"modules.json"
+	],
+	"keywords": [
+		""
+	],
+	"dependencies": {
+		"axios": "^0.16.2",
+		"semver": "^5.4.1"
+	},
+	"devDependencies": {
+		"ava": "^0.17.0",
+		"execa": "^0.7.0",
+		"xo": "^0.18.2"
+	},
+	"xo": {
+		"rules": {
+			"eqeqeq": "off",
+			"no-eq-null": "off"
+		}
+	}
+}

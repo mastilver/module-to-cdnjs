@@ -1,0 +1,214 @@
+{
+	"react": {
+		"var": "React",
+		"versions": {
+			">=0.8.0": {
+				"development": "https://cdnjs.cloudflare.com/ajax/libs/react/[version]/react.js",
+				"production": "https://cdnjs.cloudflare.com/ajax/libs/react/[version]/react.min.js"
+			}
+		}
+	},
+	"react-dom": {
+		"var": "ReactDOM",
+		"versions": {
+			">= 0.14.0 <= 16.0.0-alpha.6": {
+				"development": "https://unpkg.com/react-dom@[version]/dist/react-dom.js",
+				"production": "https://unpkg.com/react-dom@[version]/dist/react-dom.min.js"
+			},
+			">= 16.0.0-alpha.7": {
+				"development": "https://unpkg.com/react-dom@[version]/umd/react-dom.development.js",
+				"production": "https://unpkg.com/react-dom@[version]/umd/react-dom.production.min.js"
+			}
+		}
+	},
+	"redux-saga": {
+		"var": "ReduxSaga",
+		"versions": {
+			">= 0.4.0": {
+				"development": "https://unpkg.com/redux-saga@[version]/dist/redux-saga.js",
+				"production": "https://unpkg.com/redux-saga@[version]/dist/redux-saga.min.js"
+			}
+		}
+	},
+	"babel-polyfill": {
+		"versions": {
+			"*": {
+				"development": "https://unpkg.com/babel-polyfill@[version]/dist/polyfill.js",
+				"production": "https://unpkg.com/babel-polyfill@[version]/dist/polyfill.min.js"
+			}
+		}
+	},
+	"redux": {
+		"var": "Redux",
+		"versions": {
+			">= 0.12.0": {
+				"development": "https://unpkg.com/redux@[version]/dist/redux.js",
+				"production": "https://unpkg.com/redux@[version]/dist/redux.min.js"
+			}
+		}
+	},
+	"react-redux": {
+		"var": "ReactRedux",
+		"versions": {
+			">= 0.3.0 < 5.0.0 || >= 5.0.1": {
+				"development": "https://unpkg.com/react-redux@[version]/dist/react-redux.js",
+				"production": "https://unpkg.com/react-redux@[version]/dist/react-redux.min.js"
+			}
+		}
+	},
+	"axios": {
+		"var": "axios",
+		"versions": {
+			">= 0.6.0": {
+				"development": "https://unpkg.com/axios@[version]/dist/axios.js",
+				"production": "https://unpkg.com/axios@[version]/dist/axios.min.js"
+			}
+		}
+	},
+	"react-router-dom": {
+		"var": "ReactRouterDOM",
+		"versions": {
+			">= 4.0.0": {
+				"development": "https://unpkg.com/react-router-dom@[version]/umd/react-router-dom.js",
+				"production": "https://unpkg.com/react-router-dom@[version]/umd/react-router-dom.min.js"
+			}
+		}
+	},
+	"tachyons": {
+		"versions": {
+			"*": {
+				"development": "https://unpkg.com/tachyons@[version]/css/tachyons.css",
+				"production": "https://unpkg.com/tachyons@[version]/css/tachyons.min.css"
+			}
+		}
+	},
+	"auth0-lock": {
+		"var": "Auth0Lock",
+		"versions": {
+			">= 10.0.0": {
+				"development": "https://cdn.auth0.com/js/lock/[version]/lock.js",
+				"production": "https://cdn.auth0.com/js/lock/[version]/lock.min.js"
+			}
+		}
+	},
+	"redux-act": {
+		"var": "ReduxAct",
+		"versions": {
+			">= 0.4.2 <= 1.1.1": {
+				"development": "https://unpkg.com/redux-act@[version]/dist/redux-act.js",
+				"production": "https://unpkg.com/redux-act@[version]/dist/redux-act.js"
+			},
+			">= 1.1.2": {
+				"development": "https://unpkg.com/redux-act@[version]/dist/redux-act.js",
+				"production": "https://unpkg.com/redux-act@[version]/dist/redux-act.min.js"
+			}
+		}
+	},
+	"jwt-decode": {
+		"var": "jwt_decode",
+		"versions": {
+			"*": {
+				"development": "https://unpkg.com/jwt-decode@[version]/build/jwt-decode.js",
+				"production": "https://unpkg.com/jwt-decode@[version]/build/jwt-decode.min.js"
+			}
+		}
+	},
+	"redux-thunk": {
+		"var": "ReduxThunk",
+		"versions": {
+			">= 2.0.1": {
+				"development": "https://unpkg.com/redux-thunk@[version]/dist/redux-thunk.js",
+				"production": "https://unpkg.com/redux-thunk@[version]/dist/redux-thunk.min.js"
+			}
+		}
+	},
+	"object-assign": {
+		"var": "ObjectAssign",
+		"versions": {
+			">= 4.1.1": {
+				"development": "https://unpkg.com/@umds/object-assign@[version]-beta.24/object-assign.js",
+				"production": "https://unpkg.com/@umds/object-assign@[version]-beta.24/object-assign.min.js"
+			}
+		}
+	},
+	"redux-act-async": {
+		"var": "ReduxActAsync",
+		"versions": {
+			">= 1.6.0": {
+				"development": "https://unpkg.com/@umds/redux-act-async@[version]-beta.24/redux-act-async.js",
+				"production": "https://unpkg.com/@umds/redux-act-async@[version]-beta.24/redux-act-async.min.js"
+			}
+		}
+	},
+	"mobx": {
+		"var": "mobx",
+		"versions": {
+			">= 2.1.3": {
+				"development": "https://unpkg.com/mobx@[version]/lib/mobx.umd.js",
+				"production": "https://unpkg.com/mobx@[version]/lib/mobx.umd.min.js"
+			}
+		}
+	},
+	"vue": {
+		"var": "Vue",
+		"versions": {
+			">= 0.8.7 <= 2.0.3": {
+				"development": "https://unpkg.com/vue@[version]/dist/vue.js",
+				"production": "https://unpkg.com/vue@[version]/dist/vue.min.js"
+			},
+			">= 2.0.4": {
+				"development": "https://unpkg.com/vue@[version]/dist/vue.runtime.js",
+				"production": "https://unpkg.com/vue@[version]/dist/vue.runtime.min.js"
+			}
+		}
+	},
+	"angular": {
+		"var": "angular",
+		"versions": {
+			">= 1.2.17 <= 1.2.23": {
+				"development": "https://unpkg.com/angular@[version]/lib/angular.js",
+				"production": "https://unpkg.com/angular@[version]/lib/angular.min.js"
+			},
+			">= 1.2.27": {
+				"development": "https://unpkg.com/angular@[version]/angular.js",
+				"production": "https://unpkg.com/angular@[version]/angular.min.js"
+			}
+		}
+	},
+	"@angular/core": {
+		"var": "ng",
+		"versions": {
+			"*": {
+				"development": "https://unpkg.com/@angular/core@[version]/bundles/core.umd.js",
+				"production": "https://unpkg.com/@angular/core@[version]/bundles/core.umd.min.js"
+			}
+		}
+	},
+	"rx": {
+		"var": "Rx",
+		"versions": {
+			">= 2.2.21": {
+				"development": "https://unpkg.com/rx@[version]/dist/rx.all.js",
+				"production": "https://unpkg.com/rx@[version]/dist/rx.all.min.js"
+			}
+		}
+	},
+	"rxjs": {
+		"var": "Rx",
+		"versions": {
+			"*": {
+				"development": "https://unpkg.com/rxjs@[version]/bundles/Rx.js",
+				"production": "https://unpkg.com/rxjs@[version]/bundles/Rx.min.js"
+			}
+		}
+	},
+	"zone.js": {
+		"var": "Zone",
+		"versions": {
+			">= 0.5.0 <= 0.6.26 || >= 0.7.2": {
+				"development": "https://unpkg.com/zone.js@[version]/dist/zone.js",
+				"production": "https://unpkg.com/zone.js@[version]/dist/zone.min.js"
+			}
+		}
+	}
+}
